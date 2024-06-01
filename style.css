@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100dvw;
+    height: 100dvh;
+    color: #542D58;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+/* HEAD SECTION */
+.head {
+    text-align: center;
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+}
+
+.head .head__content p{
+    margin-bottom: 20px;
+}
+
+.head .head__content h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.head .head__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head .head__buttons .button__left button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #542D58;
+    color: white;
+    font-weight: 700;
+    border: 1px solid transparent;
+
+    transition: all 0.25s;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.head .head__buttons .button__left button:hover {
+    border: 2px solid #542D58;
+    background-color: transparent;
+    color: #542D58;
+}
+
+.head .head__buttons .button__right {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -5px;
+}
+
+.head .head__buttons .button__right button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    border: 1px solid #542D58;
+    font-size: 14px;
+    background-color: transparent;
+
+    margin-right: 6px;
+
+    cursor: pointer;
+}
+
+.head .head__buttons .button__right button i {
+    transform: rotate(45deg);
+}
+
+.head .head__buttons .button__right h4 {
+    font-size: 14px;
+}
+/* END HEAD SECTION */
+
+
+/* MARQUEE SECTION */
+
+.middle {
+    height: 300px;
+    width: 100%;
+
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.middle .marquee {
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.middle .marquee .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: green; */
+    height: 100%;
+    width: 20%;
+    margin-right: 20px;
+    padding: 0;
+    position: relative;
+    flex-shrink: 0;
+    overflow: hidden;
+
+    cursor: pointer;
+}
+
+.middle .marquee .box img {
+    height: 100%;
+    width: 100%;
+
+    transition: all 0.25s;
+}
+
+.middle .marquee .box img:hover {
+    scale: 150%;
+}
+
+/* END MARQUEE SECTION */
+
+/* FOOT SECTION */
+
+.foot {
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid red; */
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* END FOOT SECTION */
